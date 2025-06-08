@@ -1,0 +1,11 @@
+[requires]
+glfw/3.3.8
+glad/0.1.36
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+glfw/*:shared=False
+glad/*:shared=False

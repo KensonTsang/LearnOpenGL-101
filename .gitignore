@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+# Build folders
+build/
+cmake-build-*/
 
-# Compiled Object files
-*.slo
-*.lo
+# Conan generated files
+conan.lock
+conanbuild/
+conanfile.pyc
+conanfile.txt~
+conanfile.py~
+*.conan
+*.tgz
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# Executables & object files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
+*.dll
 *.exe
 *.out
-*.app
+
+# IDE/editor files
+*.user
+*.suo
+*.userprefs
+*.idea/
+*.vscode/
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
