@@ -85,4 +85,14 @@ cmake --build build
 
 ---
 
+### 🧠 VSCode Setup (Optional)
+For best experience with IntelliSense and build integration in Visual Studio Code, add the following to `.vscode/settings.json:`
+
+```
+{
+  "cmake.configurationProvider": "ms-vscode.cmake-tools"
+}
+```
+---
+
 
